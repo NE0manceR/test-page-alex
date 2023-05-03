@@ -1,0 +1,21 @@
+.p-3 {
+  color: red;
+  font-size: 40px;
+}
+
+.p-1 {
+  border: 1px solid red;
+  padding: 20px;
+  font-size: 20px;
+  color: blue;
+  font-weight: 700;
+}
+
+.p-2 {
+  border-bottom: 2px solid yellow;
+  padding: 30px;
+  font-size: 32px;
+  border: 16px solid yellow;
+  color: red;
+  font-weight: 900;
+}/*# sourceMappingURL=style.min.css.map */

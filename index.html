@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./my-css/style.min.css?v4">
+</head>
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .header {
+    border: 1px solid black;
+    height: 100px;
+    transition: 0.4s;
+  }
+
+  body {
+    height: 1500px;
+  }
+
+  .fixed {
+    position: fixed;
+    background-color: red;
+    width: 100%;
+    animation: fixHeader 2s forwards;
+  }
+
+  @keyframes fixHeader {
+    0% {
+      top: -150px;
+    }
+
+    100% {
+      top: 0;
+    }
+  }
+</style>
+
+<body>
+Hello test page
+</body>
+
+</html>
